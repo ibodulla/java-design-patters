@@ -11,7 +11,11 @@ public class Demo {
                 .withEmail("ibodulla.94i@gmail.com")
                 .wantNewsletter(true)
                 .build();
+
         System.out.println(newAccount.getName());
+        System.out.println(newAccount.isNewsletter());
+        StringBuilder sb = new StringBuilder("asdasdas").append("asdas");
+
 
     }
 }
